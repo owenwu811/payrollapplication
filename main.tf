@@ -3,5 +3,4 @@ module "uk_payroll" {
 	app_region = "us-west-1"
 	ami = "ami-00569e54da628d17c"
 	
-
 }
