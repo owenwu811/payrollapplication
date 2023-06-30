@@ -18,3 +18,7 @@ variable "payroll_schedule" {
   type    = string
   default = "monthly"
 }
+
+variable "region" {
+	type = string
+}
