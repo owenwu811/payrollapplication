@@ -1,12 +1,13 @@
 variable "ami" {
-	type = string
+  type = string
 }
 variable "bucket" {
-	default = "payrollbucket"
+  type = string
+  default = "payrollbucket"
 }
 variable "app_region" {
-	type = string
-	default = "us-west-1"
+  type = string
+  default = "us-west-1"
 }
 
 variable "employee_count" {
@@ -17,8 +18,4 @@ variable "employee_count" {
 variable "payroll_schedule" {
   type    = string
   default = "monthly"
-}
-
-variable "region" {
-	type = string
 }
