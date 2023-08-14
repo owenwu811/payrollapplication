@@ -1,6 +1,5 @@
 variable "ami" {
   type = string
-  default = "
 }
 variable "bucket" {
   type = string
